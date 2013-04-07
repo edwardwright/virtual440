@@ -1,0 +1,96 @@
+/*
+Marble Run Prog v1 26/3/13
+
+Reads inputs from digital pins 2-12. Setup requires 10k resistors
+with one leg to ground the other leg to one digital pin per resistor.
+A switch connects the digtal side of each resistor to the 5v pin.
+Ouput is sent to the serial (usb) port ONLY when a switch is closed.
+If a switch is closed a message ( pin2 if it is the pin two switch
+which has been closed) will be sent to the serial output.
+
+© Edward Wright 2013. All Rights Reserved. 
+
+*/
+
+// variables will change:
+int pin2 = 0;  // variable for reading the pin status  
+int pin3 = 0;
+int pin4 = 0;
+int pin5 = 0;
+int pin6 = 0;
+int pin7 = 0;
+int pin8 = 0;
+int pin9 = 0;
+int pin10 = 0;
+int pin11 = 0;
+int pin12 = 0;
+
+void setup() {
+
+// open serial usb connection
+Serial.begin(9600);
+
+// initialize the LED pin as an output:    
+pinMode(2, INPUT);
+pinMode(3, INPUT);
+pinMode(4, INPUT);
+pinMode(5, INPUT);
+pinMode(6, INPUT);
+pinMode(7, INPUT);
+pinMode(8, INPUT);
+pinMode(9, INPUT);
+pinMode(10, INPUT);
+pinMode(11, INPUT);
+pinMode(12, INPUT);
+}
+
+void loop(){
+// read the state of the pushbutton value:
+pin2 = digitalRead(2);
+pin3 = digitalRead(3);
+pin4 = digitalRead(4);
+pin5 = digitalRead(5);
+pin6 = digitalRead(6);
+pin7 = digitalRead(7);
+pin8 = digitalRead(8);
+pin9 = digitalRead(9);
+pin10 = digitalRead(10);
+pin11 = digitalRead(11);
+pin12 = digitalRead(12);
+
+// check if the pin has connected if so print to usb.
+if (pin2 == HIGH) {
+Serial.println("pin2");
+}
+if (pin3 == HIGH) {
+Serial.println("pin3");
+}
+if (pin4 == HIGH) {
+Serial.println("pin4");
+}
+if (pin5 == HIGH) {
+Serial.println("pin5");
+}
+if (pin6 == HIGH) {
+Serial.println("pin6");
+}
+if (pin7 == HIGH) {
+Serial.println("pin7");
+}
+if (pin8 == HIGH) {
+Serial.println("pin8");
+}
+if (pin9 == HIGH) {
+Serial.println("pin9");
+}
+if (pin10 == HIGH) {
+Serial.println("pin10");
+}
+if (pin11 == HIGH) {
+Serial.println("pin11");
+}
+if (pin12 == HIGH) {
+Serial.println("pin12");
+}
+
+}
