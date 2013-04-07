@@ -1,0 +1,143 @@
+/*
+A video text thing
+
+*/void setup() {
+
+size(1250, 750); //size of background
+background(0, 0, 0); //colour of background
+frameRate(25);
+}
+
+void draw() {
+noCursor();//hides cursor
+
+float size = random(10, 30); //random value for opacity
+float bounce = mouseY - random(-5, 5); //random up and down jitter
+float y = random(255);//random colour
+
+int event2 = 100; //time for next event in frames
+int event3 = 300;
+int event4 = 500;
+int event5 = 700;
+
+String string1 = "Hello world!";
+String string2 = "How are you?";
+String string3 = "Busy";
+String string4 = "Goodbye";
+
+float xval = 1250; //need to be same as background for opacity
+float yval = 750; //need to be same as background for opacity
+float opac = 10; //value for opacity fade
+
+//EVENT 1
+
+if (frameCount < event2) //starting conditions
+{
+fill(0, 0, 0, opac); //background fade
+rect (0, 0, xval, yval);
+
+if (mousePressed) {
+textSize(size);
+fill(255, 255, y, random(200)); //fill if mouse pressed rgba
+text(string1, mouseX, bounce);
+}
+else {
+fill(0, 0, 0, 0);//if mouse not pressed
+}
+}
+
+//EVENT 2  - rotate and colours
+if ((frameCount >= event2) && (frameCount < event3)) //starting conditions
+{
+fill(0, 0, 0, opac);
+rect (0, 0, xval, yval);
+
+if (mousePressed) {
+
+if (frameCount % 4 == 0) { // slower draw speed
+textSize(size);
+fill(frameCount * 3 % 255, frameCount * 5 % 255, frameCount * 7 % 255, random(200)); //multicolour
+pushMatrix(); //set up rotation
+translate(mouseX, mouseY); //centre of rotation
+if ((frameCount - event2) < ((event3 - event2) / 2)) //go clockwise then anti
+{
+rotate(radians(frameCount * 2 % 360));
+}
+else
+{
+rotate(radians(frameCount * (-2) % 360));
+}//rotate, multiply by higher no for quicker and negative for anitclock
+
+text(string2, 1, 1);//text to rotate
+popMatrix();//close rotation
+}
+else {
+fill(0, 0, 0, 0);//if mouse not pressed
+}
+}
+}
+
+//EVENT 3  random flock
+if ((frameCount >= event3) && (frameCount < event4))
+{
+fill(0, 0, 0, opac);
+rect (0, 0, xval, yval); 
+
+if (mousePressed) {
+
+textSize(size);
+fill(0, y, 255, random(200)); //fill if mouse pressed rgba
+text(string3, mouseX, bounce);
+
+textSize(size - (random(4, 10)));
+fill(0, y, 255, random(200)); //fill if mouse pressed rgba
+text(string3, (mouseX - (random(-80, 80))), (bounce - (random(-80, 80)))); //random flock
+
+textSize(size - (random(4, 10)));
+fill(0, y, 255, random(200)); //fill if mouse pressed rgba
+text(string3, (mouseX - (random(-80, 80))), (bounce - (random(-80, 80)))); //random flock
+
+textSize(size - (random(4, 10)));
+fill(0, y, 255, random(200)); //fill if mouse pressed rgba
+text(string3, (mouseX - (random(-80, 80))), (bounce - (random(-80, 80)))); //random flock 
+
+textSize(size - (random(4, 10)));
+fill(0, y, 255, random(200)); //fill if mouse pressed rgba
+text(string3, (mouseX - (random(-80, 80))), (bounce - (random(-80, 80)))); //random flock 
+
+textSize(size - (random(4, 10)));
+fill(0, y, 255, random(200)); //fill if mouse pressed rgba
+text(string3, (mouseX - (random(-80, 80))), (bounce - (random(-80, 80)))); //random flock 
+
+textSize(size - (random(4, 10)));
+fill(0, y, 255, random(200)); //fill if mouse pressed rgba
+text(string3, (mouseX - (random(-80, 80))), (bounce - (random(-80, 80)))); //random flock
+}
+else {
+fill(0, 0, 0, 0);//if mouse not pressed
+}
+}
+//EVENT 4 
+if ((frameCount >= event4) && (frameCount < event5))
+{
+fill(0, 0, 0, opac);
+rect (0, 0, xval, yval); 
+
+if (mousePressed) {
+if (frameCount % 14 == 0) {
+textSize(size);
+fill(255, y, 255, random(200)); //fill if mouse pressed rgba
+text(string4, mouseX, bounce);
+}
+}
+else {
+fill(0, 0, 0, 0);//if mouse not pressed
+}
+}
+saveFrame("output/seq-####.tga");//to save to folder.
+
+//To convert to avi go to terminal and get into folder
+//and (obviously adjust size etc!) type mencoder mf://*.tga -mf w=880:h=520:fps=25:type=tga -ovc lavc -lavcopts vcodec=mpeg4:mbd=2:trell -oac copy -o textfilm.avi
+}
+
+
