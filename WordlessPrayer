@@ -1,0 +1,690 @@
+/*
+Wordless Prayer
+
+© Edward Wright 2013. All Rights Reserved. 
+*/
+
+ 
+
+void setup() {               
+pinMode(13, OUTPUT);  
+}
+
+void loop() {
+for(int x = 0; x < 5; x++)
+{digitalWrite(13, HIGH);   //our
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(26);
+
+for(int x = 0; x < 13; x++)
+{digitalWrite(13, HIGH);   //fath
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+
+for(int x = 0; x < 12; x++)
+{digitalWrite(13, HIGH);   //er
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(454);
+
+for(int x = 0; x < 5; x++)
+{digitalWrite(13, HIGH);   //which
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(29);
+
+for(int x = 0; x < 10; x++)
+{digitalWrite(13, HIGH);   //art
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(23);
+
+for(int x = 0; x < 6; x++)
+{digitalWrite(13, HIGH);   //in
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(17);
+
+for(int x = 0; x < 18; x++)
+{digitalWrite(13, HIGH);   //heaven
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(603);
+
+for(int x = 0; x < 12; x++)
+{digitalWrite(13, HIGH);   //ha
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(29);
+
+for(int x = 0; x < 4; x++)
+{digitalWrite(13, HIGH);   //llowed
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(14);
+
+for(int x = 0; x < 10; x++)
+{digitalWrite(13, HIGH);   //be
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(27);
+
+for(int x = 0; x < 8; x++)
+{digitalWrite(13, HIGH);   //thy
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(29);
+
+for(int x = 0; x < 22; x++)
+{digitalWrite(13, HIGH);   //name
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(668);
+
+for(int x = 0; x < 6; x++)
+{digitalWrite(13, HIGH);   //thy
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(33);
+
+for(int x = 0; x < 10; x++)
+{digitalWrite(13, HIGH);   //king
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+
+for(int x = 0; x < 7; x++)
+{digitalWrite(13, HIGH);   //dom
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+
+for(int x = 0; x < 19; x++)
+{digitalWrite(13, HIGH);   //come
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(324);
+
+for(int x = 0; x < 10; x++)
+{digitalWrite(13, HIGH);   //thy
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(23);
+
+for(int x = 0; x < 9; x++)
+{digitalWrite(13, HIGH);   //will
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(15);
+
+for(int x = 0; x < 6; x++)
+{digitalWrite(13, HIGH);   //be
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(17);
+
+for(int x = 0; x < 16; x++)
+{digitalWrite(13, HIGH);   //done
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(380);
+
+for(int x = 0; x < 3; x++)
+{digitalWrite(13, HIGH);   //on
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(11);
+
+for(int x = 0; x < 18; x++)
+{digitalWrite(13, HIGH);   //earth
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+
+for(int x = 0; x < 7; x++)
+{digitalWrite(13, HIGH);   //as
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(25);
+
+for(int x = 0; x < 3; x++)
+{digitalWrite(13, HIGH);   //it
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(26);
+
+for(int x = 0; x < 7; x++)
+{digitalWrite(13, HIGH);   //is
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+
+for(int x = 0; x < 5; x++)
+{digitalWrite(13, HIGH);   //in
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(29);
+
+for(int x = 0; x < 7; x++)
+{digitalWrite(13, HIGH);   //heav
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+
+for(int x = 0; x < 14; x++)
+{digitalWrite(13, HIGH);   //en
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(423);
+
+for(int x = 0; x < 2; x++)
+{digitalWrite(13, HIGH);   //give
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(27);
+
+for(int x = 0; x < 10; x++)
+{digitalWrite(13, HIGH);   //us
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(19);
+
+for(int x = 0; x < 11; x++)
+{digitalWrite(13, HIGH);   //this
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(23);
+
+for(int x = 0; x < 23; x++)
+{digitalWrite(13, HIGH);   //day
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(29);
+for(int x = 0; x < 7; x++) //our
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(21);
+for(int x = 0; x < 7; x++) //day
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(15);
+for(int x = 0; x < 4; x++) //ly
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(9);
+for(int x = 0; x < 18; x++) //bread
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(549);
+for(int x = 0; x < 8; x++) //&
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(33);
+for(int x = 0; x < 3; x++) //4
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(22);
+for(int x = 0; x < 5; x++) //give
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(24);
+for(int x = 0; x < 7; x++) //us
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(8);
+for(int x = 0; x < 5; x++) //r
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(29);
+for(int x = 0; x < 7; x++) //tress
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(21);
+for(int x = 0; x < 13; x++) //pass
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(12);
+for(int x = 0; x < 10; x++) //es
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(250);
+for(int x = 0; x < 7; x++) //as
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+for(int x = 0; x < 7; x++) //we
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(21);
+for(int x = 0; x < 5; x++) //4
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+for(int x = 0; x < 5; x++) //give
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(26);
+for(int x = 0; x < 17; x++) //them
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(20);
+for(int x = 0; x < 6; x++) //that
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(13);
+for(int x = 0; x < 11; x++) //tress
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 7; x++) //pass
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(12);
+for(int x = 0; x < 4; x++) //a
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 6; x++) //gain
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(26);
+for(int x = 0; x < 6; x++) //st
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(17);
+for(int x = 0; x < 28; x++) //us
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(573);
+for(int x = 0; x < 5; x++) //lead
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(20);
+for(int x = 0; x < 7; x++) //us
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(20);
+for(int x = 0; x < 6; x++) //not
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(24);
+for(int x = 0; x < 13; x++) //in
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(13);
+for(int x = 0; x < 11; x++) //to
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 10; x++) //temp
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 11; x++) //ta
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(16);
+for(int x = 0; x < 15; x++) //tion
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(484);
+for(int x = 0; x < 7; x++) //but
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 9; x++) //del
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(9);
+for(int x = 0; x < 5; x++) //iv
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 13; x++) //er
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(20);
+for(int x = 0; x < 15; x++) //us
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(12);
+for(int x = 0; x < 11; x++) //from
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 20; x++) //evil
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(873);
+for(int x = 0; x < 5; x++) //4
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(9);
+for(int x = 0; x < 14; x++) //thine
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(16);
+for(int x = 0; x < 6; x++) //is
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+for(int x = 0; x < 4; x++) //the
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(25);
+for(int x = 0; x < 10; x++) //king
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(20);
+for(int x = 0; x < 13; x++) //dom
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(469);
+for(int x = 0; x < 4; x++) //the
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 8; x++) //pow
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(30);
+for(int x = 0; x < 11; x++) //er
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(254);
+for(int x = 0; x < 9; x++) //&
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(15);
+for(int x = 0; x < 5; x++) //the
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(29);
+for(int x = 0; x < 11; x++) //glo
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 15; x++) //ry
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(370);
+for(int x = 0; x < 5; x++) //4
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 5; x++) //ev
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 5; x++) //er
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(25);
+for(int x = 0; x < 7; x++) //and
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(20);
+for(int x = 0; x < 6; x++) //ev
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(10);
+for(int x = 0; x < 12; x++) //er
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(620);
+for(int x = 0; x < 6; x++) //a
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+delay(19);
+for(int x = 0; x < 24; x++) //men
+{digitalWrite(13, HIGH);  
+delay(12.5);
+digitalWrite(13, LOW);   
+delay(12.5);}
+
+
+delay(120000);
+}
